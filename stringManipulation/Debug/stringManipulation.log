@@ -1,0 +1,41 @@
+﻿Build started 22/04/2015 22:20:35.
+     1>Project "c:\Users\patrick\documents\visual studio 2010\Projects\stringManipulation\stringManipulation\stringManipulation.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\stringManipulation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt stringManipulation.c
+         stringManipulation.c
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(69): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(89): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(93): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(123): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(124): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(142): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>c:\users\patrick\documents\visual studio 2010\projects\stringmanipulation\stringmanipulation\stringmanipulation.c(146): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\patrick\documents\visual studio 2010\Projects\stringManipulation\Debug\stringManipulation.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\stringManipulation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\patrick\documents\visual studio 2010\Projects\stringManipulation\Debug\stringManipulation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\patrick\documents\visual studio 2010\Projects\stringManipulation\Debug\stringManipulation.lib" /MACHINE:X86 Debug\stringManipulation.obj
+         LINK : c:\users\patrick\documents\visual studio 2010\Projects\stringManipulation\Debug\stringManipulation.exe not found or not built by the last incremental link; performing full link
+         stringManipulation.vcxproj -> c:\users\patrick\documents\visual studio 2010\Projects\stringManipulation\Debug\stringManipulation.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\patrick\documents\visual studio 2010\Projects\stringManipulation\Debug\stringManipulation.exe;#1" /manifest Debug\stringManipulation.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\stringManipulation.unsuccessfulbuild".
+         Touching "Debug\stringManipulation.lastbuildstate".
+     1>Done Building Project "c:\Users\patrick\documents\visual studio 2010\Projects\stringManipulation\stringManipulation\stringManipulation.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.21
