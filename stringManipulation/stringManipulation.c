@@ -14,6 +14,8 @@ void strstrFunc();
 
 int main() 
 {
+	/* Uncomment these Function Calls As required */
+	
 	// strchrFunc();
 	// strcpyFunc();
 	// strlenFunction();
